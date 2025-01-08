@@ -17,10 +17,10 @@ def get_gemini_api_key():
     gemini_api_key = os.getenv("GEMINI_API_KEY")
     return gemini_api_key
 
-def get_deeplake_api_key():
+def get_activeloop_api_key():
     load_env()
-    deeplake_api_key = os.getenv("DEEPLAKE_API_KEY")
-    return deeplake_api_key
+    activeloop_api_key = os.getenv("ACTIVELOOP_TOKEN")
+    return activeloop_api_key
 
 def print_response(text):
     display(Markdown(text))

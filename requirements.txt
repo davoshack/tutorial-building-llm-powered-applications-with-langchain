@@ -5,7 +5,7 @@ newspaper3k==0.2.8
 lxml_html_clean
 python-dotenv 
 tiktoken
-deeplake
+deeplake==3.6.3
 pypdf
 
 layers/
