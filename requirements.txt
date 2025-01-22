@@ -6,6 +6,7 @@ lxml_html_clean
 python-dotenv 
 tiktoken
 deeplake==3.6.3
+pyvis==0.3.2
 pypdf
 
 layers/
