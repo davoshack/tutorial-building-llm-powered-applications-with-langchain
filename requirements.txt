@@ -10,5 +10,6 @@ pyvis==0.3.2
 pypdf
 unstructured 
 selenium
+scikit-learn
 
 layers/
