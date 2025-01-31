@@ -8,6 +8,7 @@ tiktoken
 deeplake==3.6.3
 pyvis==0.3.2
 sentence_transformers===2.2.2
+cohere
 pypdf
 unstructured 
 selenium

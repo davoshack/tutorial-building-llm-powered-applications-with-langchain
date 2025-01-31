@@ -22,5 +22,10 @@ def get_activeloop_api_key():
     activeloop_api_key = os.getenv("ACTIVELOOP_TOKEN")
     return activeloop_api_key
 
+def get_cohere_api_key():
+    load_env()
+    cohere_api_key = os.getenv("COHERE_API_KEY")
+    return cohere_api_key
+
 def print_response(text):
     display(Markdown(text))
