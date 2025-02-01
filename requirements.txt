@@ -13,5 +13,7 @@ pypdf
 unstructured 
 selenium
 scikit-learn
+yt_dlp
+openai-whisper
 
 layers/
