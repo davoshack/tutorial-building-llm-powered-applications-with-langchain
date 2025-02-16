@@ -19,7 +19,7 @@ def get_gemini_api_key():
 
 def get_activeloop_api_key():
     load_env()
-    activeloop_api_key = os.getenv("ACTIVELOOP_TOKEN")
+    activeloop_api_key = os.getenv("ACTIVELOOP_API_KEY")
     return activeloop_api_key
 
 def get_cohere_api_key():
