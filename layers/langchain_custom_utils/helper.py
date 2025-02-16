@@ -27,5 +27,10 @@ def get_cohere_api_key():
     cohere_api_key = os.getenv("COHERE_API_KEY")
     return cohere_api_key
 
+def get_eleven_api_key():
+    load_env()
+    eleven_api_key = os.getenv("ELEVEN_API_KEY")
+    return eleven_api_key
+
 def print_response(text):
     display(Markdown(text))
